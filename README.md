@@ -1,4 +1,5 @@
 # PROJECT NAME
+
 Esther's Board Quiz
 
 ## Author Name
@@ -15,3 +16,13 @@ HTML
 jquery
 CSS
 Javascript
+
+#### Dependencies
+
+I used jQuery
+
+##### Set up and Installation
+
+.git clone https://github.com/esthernaliaka40/week_two_ip.git
+.open code with vs code
+.Go Live
