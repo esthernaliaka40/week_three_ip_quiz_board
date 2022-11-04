@@ -36,7 +36,6 @@ https://esthernaliaka40.io/week_three_ip_quiz_board.git
 Phone number 254 720543896
 esthernaliaka40@gmail.com
 
-
 ##### License and Copyright information.
 
 Copyright (c) 2022 Esther Naliaka
