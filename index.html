@@ -1,211 +1,114 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-    <link rel="icon" href="images/quiz photo.jpg">
-
-    <link rel="stylesheet" href="css/css.styling">
-
     <title>ESTHERS QUIZ BOARD</title>
-
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"
+    <link rel="icon" href="images/quiz photo.jpg">
+    <link rel="stylesheet" href="css/css.styling">
 </head>
-
-<body style="background-color: aqua;">
-
-    <div class="container">
-
+<body style="background-color: aqua;"></body>
+    <DIv class="container">
         <h1>Esther's quiz board</h1>
-
         <p>This quiz will test you on how to use HTML,CSS,jquery.Kindly choose the right answers only</p>
-
-        <img src="images/quiz photo.jpg" alt="Visible">
-
-    </div>
-
- 
-
-    <div class="container">
-
-        <p>Start....</p>
-
-    </div>
-
-    <div class="container" class="jumbotron">
-
- 
-
-        <p>1.What does JS stand for </p>
-
-        <input class="form-check-input ouranswers" type="radio" name="one" id="ans_one_a" value="2">
-
-        <label class="form-check-label" for="ans_one_a">javaScript</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="one" id="ans_one_b" value="0">
-
-        <label class="form-check-label" for="ans_one_b"> JS </label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="one" id="ans_one_c" value="0">
-
-        <label class="form-check-label" for="ans_one_c">programming language</label> <br>
-
-        <br>
-
-        <p>2.How do we print using console</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="two" id="ans_two_a" value="2">
-
-        <label class="form-check-label" for="ans_two_a">console.log()</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="two" id="ans_two_b" value="0">
-
-        <label class="form-check-label" for="ans_two_b">log</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="two" id="ans_two_c" value="0">
-
-        <label class="form-check-label" for="ans_two_c">console</label> <br>
-
-        <br>
-
-        <p>3.How do we git add our work</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="three" id="ans_three_a" value="2">
-
-        <label class="form-check-label" for="ans_three_a">git add .</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="three" id="ans_three_b" value="0">
-
-        <label class="form-check-label" for="ans_three_b">Git push</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="three" id="ans_three_c" value="0">
-
-        <label class="form-check-label" for="ans_three_c">git</label> <br>
-
-        <br>
-
-        <p>4.What is the short form of Hyper text mark up language</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="four" id="ans_four_a" value="2">
-
-        <label class="form-check-label" for="ans_four_a">HTML</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="four" id="ans_four_b" value="0">
-
-        <label class="form-check-label" for="ans_four_b">LMTL</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="four" id="ans_four_c" value="0">
-
-        <label class="form-check-label" for="ans_four_c">TMLT</label> <br>
-
-        <br>
-
-        <p>5.How do we commit our work</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="five" id="ans_five_a" value="2">
-
-        <label class="form-check-label" for="ans_five_a">git commit -m</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="five" id="ans_five_b" value="0">
-
-        <label class="form-check-label" for="ans_five_b">git add .</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="five" id="ans_five_c" value="0">
-
-        <label class="form-check-label" for="ans_five_c">git remove -v</label> <br>
-
-        <br>
-
-        <p>6.jQuery's main focus is</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="six" id="ans_six_a" value="2">
-
-        <label class="form-check-label" for="ans_six_a">AJAX </label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="six" id="ans_six_b" value="0">
-
-        <label class="form-check-label" for="ans_six_b">DOM Manipulation.</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="six" id="ans_six_c" value="0">
-
-        <label class="form-check-label" for="ans_six_c">All of the above</label> <br>
-
-        <br />
-
-        <p>7.What is the function of sign $ in jQuery</p>
-
-        <input class="form-check-input ouranswers" type="radio" name="seven" id="ans_seven_a" value="2">
-
-        <label class="form-check-label" for="ans_seven_a">Access jQuery </label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="seven" id="ans_seven_b" value="0">
-
-        <label class="form-check-label" for="ans_seven_b">Find HTML element.</label> <br>
-
-        <input class="form-check-input ouranswers" type="radio" name="seven" id="ans_seven_c" value="0">
-
-        <label class="form-check-label" for="ans_seven_c">Non of the above</label> <br>
-
-        <br />
-
- 
-
-        <!--<input type="submit"id="submit_ans">-->
-
-        <div class="container my-3">
-
-            <button type="button" class="btn btn-outline-primary btn-lg" id="finished">SUBMIT</button>
-
+        <div>
+            <img src="images/quiz photo.jpg" alt="Visible">
         </div>
-
- 
-
-        <div class="container d-none" id="scoreblimp">
-
-            <div class="card text-center outline-light mb-3">
-
-                <div class="card-body text-primary">
-
-                    <h3 class="card-title outline-light ">Congratulations on taking the quiz</h3>
-
-                    <p class="card-text" id="scoreboard"></p>
-
-                </div>
-
+        <div class="container">
+            <form action=""></form>
+            <p>Start....</p>
+        </div>
+        <div class="container" class="jumbotron">
+          <form action="">
+       
+            <p>1.What does JS stand for </p>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_one_a" value="2">
+            <label class="form-check-label" for="ans_one_a">javaScript</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_one_b" value="0">
+            <label class="form-check-label" for="ans_one_b"> JS </label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_one_c" value="0">
+            <label class="form-check-label" for="ans_one_c">programming language</label> <br>
+            <br>
+            <p>2.How do we print using console</p>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_two_a" value="2">
+            <label class="form-check-label" for="ans_two_a">console.log()</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_two_b" value="0">
+            <label class="form-check-label" for="ans_two_b">log</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_two_c" value="0">
+            <label class="form-check-label" for="ans_two_c">console</label> <br>
+            <br>
+            <p>3.How do we git add our work</p>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_three_a" value="2">
+            <label class="form-check-label" for="ans_three_a">git add .</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_three_b" value="0">
+            <label class="form-check-label" for="ans_three_b">Git push</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_three_c" value="0">
+            <label class="form-check-label" for="ans_three_c">git</label> <br>
+            <br>
+            <p>4.What is the short form of Hyper text mark up language</p>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_four_a" value="2">
+            <label class="form-check-label" for="ans_four_a">HTML</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_four_b" value="0">
+            <label class="form-check-label" for="ans_four_b">LMTL</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_four_c" value="0">
+            <label class="form-check-label" for="ans_four_c">TMLT</label> <br>
+            <br>
+            <p>5.How do we commit our work</p>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_five_a" value="2">
+            <label class="form-check-label" for="ans_five_a">git commit -m</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_five_b" value="0">
+            <label class="form-check-label" for="ans_five_b">git add .</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_five_c" value="0">
+            <label class="form-check-label" for="ans_five_c">git remove -v</label> <br>
+            <br>
+           <p>6.jQuery's main focus is</p>
+           <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_six_a" value="2">
+            <label class="form-check-label" for="ans_six_a">AJAX </label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_six_b" value="0">
+            <label class="form-check-label" for="ans_six_b">DOM Manipulation.</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_six_c" value="0">
+            <label class="form-check-label" for="ans_six_c">All of the above</label> <br>
+            <br />
+            <p>7.What is the function of sign $ in jQuery</p>
+           <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_seven_a" value="2">
+            <label class="form-check-label" for="ans_seven_a">Access jQuery </label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_seven_b" value="0">
+            <label class="form-check-label" for="ans_seven_b">Find HTML element.</label> <br>
+            <input class="form-check-input ouranswers" type="checkbox" name="ansDefault" id="ans_seven_c" value="0">
+            <label class="form-check-label" for="ans_seven_c">Non of the above</label> <br>
+            <br />
+            <!--<input type="submit"id="submit_ans">-->
+            <div class="container text-center my-3">
+                <button type="button"class="btn btn-outline-primary btn-lg"id="finished">SUBMIT</button>
             </div>
 
+           
+            <div class="container d-none" id= "Scroreblimp">
+            <div class="card text-center outline-light mb-3"></div>
+            <div class="card-body text-primary">
+            <h3 class="card-title outline-light ">Congratulations on taking the quiz</h3>
+            <p class="card-text"id="scoreboard"></p>
+           
+            </div>
+          </div>
         </div>
 
- 
-
+          </form>
+        </div class="container">
         <p>Copyright @ Esther (2022).</p>
-
- 
-
         <div class="container">
-
-            <p><a href="contact.html" target="blank">Any mark below 50 kindly call me on 0720543896 for clarification</a></p>
-
+            <p><a href="contact.html"target="blank">Any mark below 50 kindly call me on 0720543896 for clarification</a></p>
         </div>
+           
 
- 
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
-
-    <script src="esther.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+  "></script>
+  <script src="js/main.js"></script>
    
-
 </body>
-
 </html>
