@@ -1,1 +1,7 @@
+$("#finished").click(function () {
+
+    $("#scoreblimp").removeClass("d-none");
+
  
+
+});
