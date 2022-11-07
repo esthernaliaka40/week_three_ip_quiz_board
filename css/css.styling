@@ -1,1 +1,7 @@
-h1 style colo
+body {
+    color: blue;
+}
+
+h1 {
+    color: red
+}
