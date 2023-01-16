@@ -29,7 +29,7 @@ Go Live
 
 ### Live Link
 
-https://esthernaliaka40.github.io/week_three_ip_quiz_board.git
+https://esthernaliaka40.github.io/week_three_ip_quiz_board
 
 #### Contact Information.
 
